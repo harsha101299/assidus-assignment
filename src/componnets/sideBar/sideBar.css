@@ -1,0 +1,23 @@
+.activeTab{
+    background-color: #1ca91c;
+    color: white;
+}
+
+.allList{
+    padding-left: 10px;
+}
+
+.logo{
+    margin: 20px auto ;
+    width: 170px 
+}
+
+.activeIcon{
+    color: white;
+    z-index: 10;
+}
+
+.notactiveIcon{
+    color:black;
+    z-index: -10;
+}

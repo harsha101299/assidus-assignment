@@ -1,0 +1,64 @@
+.overlay {
+  position: fixed;
+  background-color: rgba(181, 182, 184, 0.824);
+  z-index: 123;
+  height: 100vh;
+  width: 100vw;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  z-index: 18;
+  align-items: center;
+}
+
+.Modal {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 20px;
+  /* box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.3); */
+  filter: drop-shadow(2px 2px 12px rgba(131, 190, 129, 0.774));
+  z-index: 20;
+}
+.cancelIcon{
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  margin-right: 20px;
+  transition: all ease-in 0.1s ;
+}
+.cancelIcon:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.datePick:active {
+  outline-color: aqua;
+  border: none;
+  height: "32px";
+}
+
+.invoiceForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.dateField {
+  overflow: hidden;
+}
+
+.upload {
+  color: white;
+  font-size: smaller;
+}
+
+.row {
+  margin: 10px 30px;
+}
+
+.rowOne {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

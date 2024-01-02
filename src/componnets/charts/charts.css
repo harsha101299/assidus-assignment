@@ -1,0 +1,77 @@
+.allCharts {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #f5f2f2;
+  margin-top: 50px;
+  height: 560px;
+  width: 1122px;
+  left: 200px;
+  padding: 20px;
+}
+.chart {
+  background-color: rgb(255, 255, 255);
+  margin: 7px;
+  border-radius: 10px;
+  /* box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.3); */
+  /* filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3)); */
+
+}
+
+
+.subHeads {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.subHeads > h4{
+  margin: 15px 0px;
+}
+
+
+.AccountXaxis,.InvoiceXaxis,.Cashflowaxis{
+  color: #a19e9d;
+  font-weight: 200;
+}
+.AccountXaxis line,.AccountXaxis path ,.InvoiceXaxis path ,.InvoiceXaxis line,.Cashflowaxis path ,.Cashflowaxis line{
+  display: none;
+}
+
+
+
+.tableHeadings{
+  margin: 6px 0px;
+  color: #a19e9d;
+}
+
+.watchlist{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 13px 5%;
+  text-align: left;
+  font-weight: 500;
+
+}
+
+.data{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 14px;
+}
+
+.RightPart{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.data>span{
+  padding-top: 5px;
+}
